@@ -19,30 +19,49 @@ main {
 
 
 /*Navigation*/
+/* Navbar container */
+nav {
+  background-color: #333333; /* black bar */
+  width: 100%;
+  position: fixed; /* stays at top when scrolling */
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center; /* vertically center logo and links */
+  justify-content: space-between; /* space between logo and nav links */
+  padding: 0 20px;
+  z-index: 1000; /* keeps navbar above other content */
+}
+
+/* Logo container */
+#logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+#logo {
+  height: 50px; /* adjust size as needed */
+  width: auto;
+}
+
+/* Navigation list */
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
   display: flex;
-  justify-content: center;
+  gap: 20px;
 }
 
+/* Navigation links */
 nav ul li a {
-  display: block;
   color: white;
-  padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
+  padding: 14px 16px;
 }
 
 nav ul li a:hover {
   background-color: #111111;
-}
-
-#logo {
-	
-}
-
-#logoContainer {
-	
 }
