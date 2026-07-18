@@ -6,12 +6,18 @@ body {
 }
 
 a:visited {
-color: #a270ff;
+	color: #a270ff;
 }
 
 a:link {
-color: #7077ff;
+	color: #7077ff;
 }
+
+main {
+	margin-top: 60px;
+}
+
+
 
 
 /*Navigation*/
